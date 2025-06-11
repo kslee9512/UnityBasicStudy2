@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 902365ee831b01a4384fb19ef1eea89c, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Data.xlsx
+  WorksheetName: Dialogue
+  dataArray:
+  - id: 0
+    characteridx: 10001
+    characteremotion: 0
+    position: 5
+    bg: room
+    dialogue: "\uBC18\uAC11\uB2E4. \uC120\uC0DD."
