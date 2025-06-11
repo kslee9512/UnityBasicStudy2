@@ -16,6 +16,7 @@ MonoBehaviour:
   WorksheetName: Dialogue
   dataArray:
   - id: 0
+    characterslotnum: 0
     characteridx: 10001
     characteremotion: 0
     position: 5

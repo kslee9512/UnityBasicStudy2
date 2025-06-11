@@ -13,6 +13,10 @@ public class DialogueData
   public int ID { get {return id; } set { this.id = value;} }
   
   [SerializeField]
+  int characterslotnum;
+  public int Characterslotnum { get {return characterslotnum; } set { this.characterslotnum = value;} }
+  
+  [SerializeField]
   int characteridx;
   public int Characteridx { get {return characteridx; } set { this.characteridx = value;} }
   

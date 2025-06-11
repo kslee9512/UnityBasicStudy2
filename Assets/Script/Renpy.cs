@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -62,15 +63,20 @@ public class Renpy : MonoBehaviour
         switch (_PosNum)
         {
             case 5:
-                img_Character[0].GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+                img_Character[0].GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -600f);
                 break;
         }
     }
 
     private void UpdateCharacterImage(string PathName, int EmotionNum)
     {
-        string path = PathName + EmotionNum.ToString();
-        img_Character[0].sprite = Resources.Load<Sprite>(path);
+        var sb = new StringBuilder();
+        sb.Append("Img/Character/");
+        sb.Append(PathName);
+        sb.Append("/");
+        sb.Append(PathName);
+        sb.Append(EmotionNum);
+        img_Character[0].sprite = Resources.Load<Sprite>(sb.ToString());
     }
 
     private void UpdateCharacterInfo(string Charactername, string CharacterNameInfo)

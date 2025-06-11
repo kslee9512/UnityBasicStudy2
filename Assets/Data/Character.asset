@@ -18,7 +18,7 @@ MonoBehaviour:
   - id: 10001
     name: "\uC0AC\uC624\uB9AC"
     title: "\uC544\uB9AC\uC6B0\uC2A4 \uC2A4\uCFFC\uB4DC"
-    imagedirection: saori--
+    imagedirection: saori
   - id: 10002
     name: "\uBBF8\uCE74"
     title: "\uD2F0\uD30C\uD2F0"
